@@ -2,8 +2,6 @@
     width: 100%;
 }
 
-
-
 .search-bar{
     display: block;
 }
@@ -11,19 +9,11 @@
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
-
 }
-
-
-
-
 
 .channel1{
     width: 36px;
     border-radius: 50px;
-
-
-
 }
 
 .title{
@@ -32,18 +22,12 @@
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 20px;
-
-
-
-
 }
 
 .author,
 .video-stats{
     font-size: 12px;
     color: rgb(96, 96, 96);
-
-
 }
 
 .author{
@@ -51,11 +35,9 @@
 
 }
 
-
 .thumbnail-row{
 margin-bottom: 8px;
 position: relative;
-
 }
 
 .grid{
@@ -63,7 +45,6 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 16px;
 row-gap:30px;
-
 }
 
 @media(max-width: 750px) {
@@ -71,7 +52,7 @@ row-gap:30px;
         display: grid;
         grid-template-columns: 1fr 1fr ;
         
-    }
+        }
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
@@ -79,7 +60,7 @@ row-gap:30px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
         
-    }
+        }
 }
 
 
