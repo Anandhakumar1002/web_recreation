@@ -74,12 +74,27 @@
     border-style: solid;
     margin-left: -1px;
     margin-right: 10px;
-    position: relative;
+    
 
 }
-.search-icon, .voi
+.search-icon,
+.voice-search, 
+.youtube-app-container,
+.upload-icon-container,
+.notification-icon-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.search-icon .tooltip {
+.search-icon .tooltip,
+.voice-search .tooltip,
+.upload-icon-container .tooltip,
+.youtube-app-container .tooltip,
+.notification-icon-container .tooltip
+ {
+    font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
     color: white;
@@ -94,10 +109,13 @@
     opacity: 0;
     transition: opacity 0.15s;
     pointer-events: none;
-
-
+    white-space: nowrap;
 }
-.search-icon:hover .tooltip {
+.search-icon:hover .tooltip,
+.voice-search:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-app-container:hover .tooltip,
+.notification-icon-container:hover .tooltip {
     opacity: 1;
 
 }
@@ -121,9 +139,7 @@
     flex: 1;
     height: 36px;
     padding-left: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: gray;
+    border: 1px solid rgb(192, 192, 192) ;
     font-size: 16px;
     border-radius: 2px;
     box-shadow: inset 1px 2px 5px rgba(0,0,0,.15);
@@ -136,7 +152,7 @@
 
 
 .search-bar::placeholder{
-    font-family: Roboto , Arial;
+
     font-size: 16px;
     
 
@@ -183,7 +199,7 @@
     right: 0;
     background-color: red;
     color: white;
-    font-family: Roboto, Arial;
+
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 2px;
