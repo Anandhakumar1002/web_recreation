@@ -19,7 +19,7 @@
 
 
 .channel1{
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 
 
@@ -29,7 +29,10 @@
 .title{
     margin-top: 0;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+
 
 
 
@@ -50,7 +53,7 @@
 
 
 .thumbnail-row{
-margin-bottom: 15px;
+margin-bottom: 8px;
 position: relative;
 
 }
